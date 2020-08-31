@@ -22,7 +22,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Testing APIs
-        uses: baker371/k8-data-visualization@lwasampijja-baker/pipeline
+        uses: baker371/k8-data-visualization@lwasampijja-baker
         with:
           args: python setup.py develop && pytest
 
